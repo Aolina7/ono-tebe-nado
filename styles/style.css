@@ -15,41 +15,8 @@
   --text: #000000;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
-  font-family: Raleway, sans-serif;
   font-size: 18px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol,
-li,
-blockquote {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: inherit;
-}
-
-img {
-  width: 100%;
 }
 
 button {
@@ -62,10 +29,7 @@ header {
     align-items: center;
     padding: 8% 5%;
     flex-wrap: wrap;
-}
-
-.header__menu {
-    /* width: 392px; */
+    line-height: 24.3px;
 }
 
 .menu__list {
@@ -74,6 +38,7 @@ header {
     list-style: circle;
     flex-wrap: wrap;
     gap: 7%;
+    line-height: 100%;
 }
 
 .logo {
@@ -89,6 +54,8 @@ header {
     justify-self: end;
     flex-wrap: wrap;
     max-width: 240px;
+    font-style: normal;
+    line-height: 24px;
 }
 
 .cover {
@@ -113,17 +80,13 @@ header {
 }
 
 .cover__title {
-  margin: 15% 5% 0%;
-  gap: 2%;
+  margin: 15% 4% 0%;
+  gap: 5%;
 }
 
 h1 {
   letter-spacing: 30%;
   font-size: 100px;
-}
-
-#cover__title1 {
-  
 }
 
 #cover__title2 {
@@ -143,12 +106,12 @@ h1 {
   font-size: 22px;
   display: grid;
   grid-template-columns: 64% 26%;
-  gap: 10%;
+  gap: 11%;
 }
 
 .cover__note {
   display: flex;
-  align-items: center;  
+  align-items: center;
   line-height: 28%;
   word-spacing: 10px;
   height: 100%;
@@ -165,7 +128,7 @@ h1 {
 }
 
 .lots {
-    margin: 16% 2% 11%;
+    margin: 16% 2% 0%;
     font-size: 20px;
 }
 
@@ -174,13 +137,14 @@ h1 {
     margin-left: 4%;
     font-size: 40px;
     font-weight: 700;
+    line-height: 100%;
 }
 
 .lots__list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     gap: 2%;
 }
 
@@ -219,19 +183,20 @@ h1 {
 
 .lots__link {
   margin-left: 4%;
+  line-height: 100%;
 }
 
 .about {
   margin: 11% 2% 16%;
   display: grid;
-  grid-template-columns: 334px 1fr;
+  grid-template-columns: 1fr 693px;
+  gap: 7%;
   font-size: 20px;
 }
 
 .about__logo {
   margin-top: 3%;
-  margin-right: 4%;
-  margin-left: 7%;
+  margin-left: 4%;
   background-color: #000000;
   border-radius: 50%;
   width: 240px;
@@ -248,20 +213,26 @@ h1 {
 
 .about__description {
   margin-top: 13%;
-  margin-right: 0;
   display: flex;
   flex-direction: column;
+  margin-bottom: 1%;
+  gap:0;
 }
 
 .about__title {
   margin-right: 58%;
   margin-bottom: 14%;
+  font-size: 40px;
+  line-height: 100%;
+  width: 100%;
 }
 
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 4%;
+  width: 100%;
+  gap: 30px;
+  line-height: 24px;
 }
 
 footer {
@@ -280,6 +251,8 @@ footer {
   flex-wrap: wrap;
   max-width: 264px;
   margin-right: 14%;
+  font-style: normal;
+  line-height: 24px;
 }
 
 .footer__menu {
@@ -291,6 +264,7 @@ footer {
   flex-direction: column;
   align-items: center;
   list-style: none;
+  line-height: 100%;
 }
 
 .footer__apps {
